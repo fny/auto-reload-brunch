@@ -27,9 +27,7 @@
         
       // hack to force page repaint in Chrome
       var el=document.body;
-      el.style.display='none'; 
       el.offsetHeight;
-      el.style.display='block';
     }
   };
   var port = ar.port || 9485;
